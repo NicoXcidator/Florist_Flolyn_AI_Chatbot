@@ -1,0 +1,26 @@
+{"intents": [
+      {"tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up", "how is it going?"],
+      "responses": ["Hello!", "Hey!", "What can I do for you?"]
+      },
+      {"tag": "goodbye",
+      "patterns": ["cya", "see you later", "goodbye", "i am leaving", "have a good day", "bye", "cao", "see ya"],
+      "responses": ["Sad to see you go :(", "See you", "Goodbye!"]
+      },
+      {"tag": "age",
+      "patterns": ["how old are you", "age?", "what is your age?", "how long you been here?", "how old is Nico?"],
+      "responses": ["My owner Nico is 21 years old", "21 years old"]
+      },
+      {"tag": "name",
+      "patterns": ["what is your name?", "what should i call you", "how should i call you", "whats your name", "who are you", "can you tell me your name", "how can i address you"],
+      "responses": ["You can call me Flolyn", "I'm Flolyn", "I'm Flolyn the assistant of Nico"]
+      },
+      {"tag": "shop",
+      "patterns": ["I'd like to buy something", "I want to buy something", "what are your products?", "what do you recommend", "any reccomendation", "what are you selling", "any flower available", "where i can find this shop", "where can i buy the product"],
+      "responses": ["Flolyn is an online store where you can buy all the flowers that you want, rose, jasmine, lily, tulip, orchid, carnation, hyacinth, peony, grysophila"]
+      },
+      {"tag": "hours",
+      "patterns": ["when are you guys open", "what time are you open", "when i can come?", "when can i take the flowers", "what time the flower ready", "what time are you close", "are you open on morning", "are you open at night"],
+      "responses": ["Flolyn open 24/7 for you to give your flower to your dearest"]
+      }
+]}
